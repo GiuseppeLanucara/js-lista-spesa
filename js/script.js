@@ -7,10 +7,10 @@ Buon lavoro a tutte e a tutti!!*/
 const listaSpesa = ["mele", "banane", "latte", "pane"];
 console.log(listaSpesa);
 
-let i = 0;
-const lista = document.getElementsByClassName("list");
-console.log(lista);
-
-while (i < listaSpesa) {
+let i = 0
+while (i < listaSpesa.length) {
+    
+    console.log (listaSpesa[i]);
     i++;
+    
 }

@@ -8,9 +8,11 @@ const listaSpesa = ["mele", "banane", "latte", "pane"];
 console.log(listaSpesa);
 
 let i = 0
+
 while (i < listaSpesa.length) {
     
-    console.log (listaSpesa[i]);
-    i++;
-
+   document.getElementById("list").innerHTML += "<li>" + (listaSpesa[i]) + "</li>";
+   console.log(listaSpesa[i]);
+    i++; 
+    
 }
